@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.no-style {
+  list-style: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pb-4 {
+  padding-bottom: 1em;
+}
+
+.pb-6 {
+  padding-bottom: 1.5em;
+}
+
+.pb-8 {
+  padding-bottom: 2em;
+}
+
+.pb-16 {
+  padding-bottom: 4em;
+}
+
+.pb-20 {
+  padding-bottom: 5em;
+}
+
+.pt-4 {
+  padding-top: 1em;
+}
+
+.pt-8 {
+  padding-top: 2em;
+}
+
+.pt-16 {
+  padding-top: 4em;
+}
+
+.pt-20 {
+  padding-top: 5em;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.mb-8 {
+  margin-bottom: 2em;
+}
+
+.bg-purple {
+  background-color: #3C1567;
+}
+
+.bg-grey {
+  background-color: #3C3C3C;
+}
+
+.bg-blue {
+  background-color: #0072BC;
+}
+
+.bg-insta {
+  background-color: #E4405F;
+}
+
+.bg-facebook {
+  background-color: #3B5998;
+}
+
+.bg-twitter {
+  background-color: #1DA1F2;
+}
+
+.bg-youtube {
+  background-color: #CD201F;
+}
+
+.bg-pinterest {
+  background-color: #BD081C;
+}
+
+.bg-blog {
+  background-color: #FF8D00;
+}
+
+#white {
+  color: #fff;
+}
+
+nav {
+  flex-direction: column;
+}
+nav .navbar-top {
+  align-self: flex-end;
+}
+nav .navbar-top i {
+  color: #009CFF;
+}
+nav .navbar-top span {
+  font-size: 13px;
+  color: #7E7E7E;
+  padding-left: 5px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+nav .wrapper-logo {
+  width: 100px;
+  height: 27px;
+}
+nav .wrapper-logo img {
+  width: 100%;
+}
+nav .navbar-menu {
+  display: flex;
+}
+nav .navbar-menu ul {
+  align-items: flex-end;
+  height: 100%;
+}
+nav .navbar-menu ul li {
+  padding-left: 45px;
+  color: #FFF;
+  cursor: pointer;
+}
+nav .navbar-menu ul i {
+  font-size: 8px;
+  padding-left: 5px;
+  color: #878787;
+}
+
+.jumbo {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.jumbo .jumbo-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+.jumbo .jumbo-wrapper .jumbo-details {
+  width: 50%;
+}
+.jumbo .jumbo-wrapper .jumbo-details img {
+  width: 45%;
+}
+.jumbo .jumbo-wrapper .jumbo-details h3 {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.jumbo .jumbo-wrapper .jumbo-details h4 {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: italic;
+  color: #CC28B4;
+}
+.jumbo .jumbo-wrapper .jumbo-details p {
+  color: #CC28B4;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+.jumbo .jumbo-wrapper .jumbo-details button {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+.jumbo .jumbo-wrapper .jumbo-details .btn-learn {
+  background-color: #000;
+  color: #FFF;
+}
+.jumbo .jumbo-wrapper .jumbo-details .btn-download {
+  background-color: transparent;
+  color: #000;
+  margin-left: 25px;
+}
+.jumbo .jumbo-wrapper .jumbo-details span {
+  position: absolute;
+  bottom: 6%;
+  right: 1%;
+  font-size: 11px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.6;
+}
+
+header {
+  background-color: #101010;
+}
+header nav {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #E8E8E8;
+}
+main .painting-possibilities {
+  width: 60%;
+  margin: 0 auto;
+}
+main .painting-possibilities h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #393333;
+}
+main .painting-possibilities .card {
+  display: inline-block;
+  width: calc(100%/3 - 19px);
+  background-color: #fff;
+}
+main .painting-possibilities .card .img-wrapper {
+  position: relative;
+}
+main .painting-possibilities .card .img-wrapper img {
+  width: 100%;
+}
+main .painting-possibilities .card .img-wrapper span {
+  position: absolute;
+  bottom: 6%;
+  right: 3%;
+  font-size: 11px;
+  font-weight: 300;
+  color: #C3C3C3;
+}
+main .painting-possibilities .card .card-info {
+  padding: 25px;
+}
+main .painting-possibilities .card .card-info span {
+  color: #009CFF;
+  font-style: italic;
+}
+main .painting-possibilities .card .card-info h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+main .painting-possibilities .card .card-info .details {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+}
+main .painting-possibilities .card .card-info .learn-more {
+  font-size: 16px;
+  font-weight: 300;
+  color: #009CFF;
+  margin-top: 20px;
+  cursor: pointer;
+}
+main .collage {
+  width: 60%;
+  margin: 0 auto;
+}
+main .collage .collage-wrapper {
+  position: relative;
+  width: 50%;
+  height: 300px;
+}
+main .collage .collage-wrapper .collage-details {
+  color: #fff;
+  padding: 55px 51px;
+}
+main .collage .collage-wrapper .collage-details h3 {
+  font-size: 28px;
+  font-weight: 400;
+}
+main .collage .collage-wrapper .collage-details p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+main .collage .collage-wrapper .collage-details button {
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+main .collage .collage-wrapper .img-row-1 {
+  width: 80%;
+  height: 90%;
+  margin-top: 15px;
+}
+main .collage .collage-wrapper .img-row-2, main .collage .collage-wrapper .img-row-3 {
+  width: 100%;
+  height: 100%;
+}
+main .collage .collage-wrapper span {
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+  font-size: 11px;
+  font-weight: 300;
+  color: #C3C3C3;
+}
+
+footer .footer-top {
+  background-color: #ECECEC;
+}
+footer .footer-top .links {
+  width: 60%;
+  margin: 0 auto;
+}
+footer .footer-top .links > div {
+  width: 25%;
+  padding-left: 20px;
+}
+footer .footer-top .links > div h5 {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+footer .footer-top .links > div ul li {
+  font-size: 13px;
+  padding-bottom: 10px;
+  color: #4D4D4D;
+  cursor: pointer;
+}
+footer .footer-top .socials {
+  width: 60%;
+  margin: 0 auto;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+footer .footer-top .socials .social-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 22px;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+}
+footer .footer-bottom {
+  background-color: #1E1E1E;
+}
+footer .footer-bottom .fb-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+footer .footer-bottom .fb-wrapper .credits-imgs {
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+footer .footer-bottom .fb-wrapper .credits-imgs img {
+  padding-right: 25px;
+  cursor: pointer;
+}
+footer .footer-bottom .fb-wrapper .privacy {
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 35px;
+}
+footer .footer-bottom .fb-wrapper .privacy ul li {
+  font-size: 12px;
+  padding-left: 20px;
+  color: #999999;
+  cursor: pointer;
+}

@@ -1,0 +1,56 @@
+ .jumbo{
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  .jumbo-wrapper {
+    @include container-center;
+    .jumbo-details {
+      width: 50%;
+      img {
+        width: 45%;
+      }
+      h3 {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      h4 {
+        font-size: 18px;
+        font-weight: 700;
+        font-style: italic;
+        color: #CC28B4;
+      }
+      p {
+        color: #CC28B4;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: italic;
+      }
+      button {
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 10px 30px;
+        border: 2px solid #000;
+        cursor: pointer;
+      }
+      .btn-learn {
+        background-color: #000;
+        color: #FFF;
+      }
+      .btn-download {
+        background-color: transparent;
+        color: #000;
+        margin-left: 25px;
+      }
+      span {
+        position: absolute;
+        bottom: 6%;
+        right: 1%;
+        font-size: 11px;
+        font-weight: 400;
+        color: #fff;
+        opacity: 0.6;
+      }
+    }
+  }
+}

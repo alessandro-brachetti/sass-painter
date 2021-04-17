@@ -1,0 +1,31 @@
+{
+  "name": "sass-painter",
+  "version": "1.0.0",
+  "description": "Esercizio Painter",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "laravel-mix": "^6.0.16",
+    "postcss": "^8.1.14",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alessandro-brachetti/sass-painter.git"
+  },
+  "keywords": [
+    "SASS",
+    "Painter"
+  ],
+  "author": "Alessandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alessandro-brachetti/sass-painter/issues"
+  },
+  "homepage": "https://github.com/alessandro-brachetti/sass-painter#readme"
+}
